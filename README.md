@@ -1,0 +1,6 @@
+This project will involve using node to build a logger and will give you some practice transforming data.
+
+When you are managing a website it is important to be able to determine the type and frequency of visitors. One way to do that is by reviewing the log files on the server. The logs will tell you a bit about each incoming request. Examples of the type of information that are found in logs include the browser (user-agent) for each visitor, the files requested, and a time stamp when the request was made. A system administrator can determine if errors are occuring, whether traffic appears to be normal, or if the server is being attacked by bots.
+In this project you will build your own custom logger that will log some information about each request it receives. You will also expose an endpoint on the server so it would be easy for anyone to retrieve the latest log data from the web.
+
+Using express, implement a web server that saves data about each incoming request in a file called log.csv
